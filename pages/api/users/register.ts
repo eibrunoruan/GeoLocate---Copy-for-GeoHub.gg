@@ -46,7 +46,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
         password: hashPassword,
         avatar: getRandomAvatar(),
         createdAt: new Date(),
-        onNewDomain: req.headers.host === 'www.geohub.gg',
+        onNewDomain: req.headers.host === 'www.GeoLocate.gg',
       }
 
       await collections.users?.insertOne(newUser)

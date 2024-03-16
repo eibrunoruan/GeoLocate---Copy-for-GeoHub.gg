@@ -64,8 +64,8 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
         header: 'Forgot your password?',
         text: `No worries, it happens! Click the link below to reset your password. If you didn't make this request, please disregard this email and the link will expire in 24 hours.`,
         button: 'Reset your password',
-        siteName: 'GeoHub',
-        siteUrl: 'https://www.geohub.gg',
+        siteName: 'GeoLocate',
+        siteUrl: 'https://www.geolocate.club',
       }
 
       const html = `

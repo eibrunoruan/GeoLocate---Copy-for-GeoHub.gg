@@ -42,7 +42,7 @@ const DailyQuotaModal: FC<Props> = ({ isOpen, closeModal }) => {
           </div>
 
           <p className="modal-text">
-            To keep GeoHub free, there is a limit to how many games can be played each day.
+            To keep GeoLocate free, there is a limit to how many games can be played each day.
             <span> The daily quota resets at midnight (PT)</span>.
           </p>
         </div>
@@ -58,7 +58,7 @@ const DailyQuotaModal: FC<Props> = ({ isOpen, closeModal }) => {
             </Link>
             <a
               className="support-link donate"
-              href="https://www.buymeacoffee.com/geohubgame"
+              href="https://www.buymeacoffee.com/GeoLocategame"
               target="_blank"
               rel="noreferrer"
             >

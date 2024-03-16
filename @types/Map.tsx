@@ -7,7 +7,7 @@ type Map = {
   name: string
   description?: string
   previewImg: string
-  creator: 'GeoHub' | ObjectId
+  creator: 'GeoLocate' | ObjectId
   isPublished?: boolean
   isDeleted?: boolean
   createdAt?: Date

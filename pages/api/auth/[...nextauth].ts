@@ -35,7 +35,7 @@ export const authOptions: NextAuthOptions = {
 
         const decrypedMapsAPIKey = user.mapsAPIKey ? cryptr.decrypt(user.mapsAPIKey) : ''
 
-        if (req.headers?.host === 'www.geohub.gg') {
+        if (req.headers?.host === 'www.GeoLocate.gg') {
           await collections.users?.findOneAndUpdate({ _id: user._id }, { $set: { onNewDomain: true } })
         }
 

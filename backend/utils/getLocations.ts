@@ -29,7 +29,7 @@ const getLocations = async (mapId: string, count: number = 5) => {
     return null
   }
 
-  const locationCollection = map.creator === 'GeoHub' ? 'locations' : 'userLocations'
+  const locationCollection = map.creator === 'GeoLocate' ? 'locations' : 'userLocations'
 
   // Get random locations from DB
   const locations = (await collections[locationCollection]

@@ -14,7 +14,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
         ?.find({
           isPublished: true,
           isDeleted: { $exists: false },
-          creator: { $ne: 'GeoHub' },
+          creator: { $ne: 'GeoLocate' },
         })
         .skip(page * mapsPerPage)
         .limit(mapsPerPage + 1)

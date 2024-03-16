@@ -1,44 +1,44 @@
 <!-- markdownlint-disable-next-line -->
 <p align="center">
-  <a href="https://www.geohub.gg"><img src="public/og-image.png" alt="GeoHub logo"></a>
+  <a href="https://www.GeoLocate.gg"><img src="public/og-image.png" alt="GeoLocate logo"></a>
 </p>
 
 <div align="center">
-  <a href="https://www.geohub.gg">Website</a>
+  <a href="https://www.GeoLocate.gg">Website</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
   <a href="https://discord.gg/9qdXWqgbrH">Discord</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="https://www.buymeacoffee.com/geohubgame">Donate</a>
+  <a href="https://www.buymeacoffee.com/GeoLocategame">Donate</a>
   <hr />
 </div>
 
-GeoHub is a free and open source geography guessing game inspired by Geoguessr.
+GeoLocate is a free and open source geography guessing game inspired by Geoguessr.
 
 For those unfamilar with Geoguessr, it uses Google Streetview to place you in a random location and you have to guess where you think you are in the world. You can move around and use clues around you such as Language, Architecture, Road Signs, etc... to make your guess. The objective is clear, the closer you are to the correct location, the more points you get.
 
 ## 💜 How can I support?
 
-Even though you don't need to pay to play GeoHub, the game still costs money to run and relies on community support to stay running while it grows. If you enjoy playing, please support by donating as all donations will go towards paying for more Google Maps API credits + server costs.
+Even though you don't need to pay to play GeoLocate, the game still costs money to run and relies on community support to stay running while it grows. If you enjoy playing, please support by donating as all donations will go towards paying for more Google Maps API credits + server costs.
 
-<a href="https://www.buymeacoffee.com/geohubgame"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="42" width="170"></a>
+<a href="https://www.buymeacoffee.com/GeoLocategame"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="42" width="170"></a>
 
-If you still want to help support GeoHub but aren't able to donate, you can also create your own Google Maps API key which gives you $200 USD worth of credit every month. Unless you are playing 24/7 this will be more than enough credits for a single person, meaning you won't have to pay. See the [FAQ](#faq) section for instructions on how to setup your own key.
+If you still want to help support GeoLocate but aren't able to donate, you can also create your own Google Maps API key which gives you $200 USD worth of credit every month. Unless you are playing 24/7 this will be more than enough credits for a single person, meaning you won't have to pay. See the [FAQ](#faq) section for instructions on how to setup your own key.
 
 ## 🎉 How do I play?
 
-Go to the [website](https://www.geohub.gg) and create an account, it is free and takes 15 seconds. If you don't want to create your own account, you can login to the guest account using the credentials below:
+Go to the [website](https://www.GeoLocate.gg) and create an account, it is free and takes 15 seconds. If you don't want to create your own account, you can login to the guest account using the credentials below:
 
-- Email: `guest@geohub.com`
-- Password: `geohub`
+- Email: `guest@GeoLocate.com`
+- Password: `GeoLocate`
 
 <br />
 
 Once you have an account, you are ready to play! You can click play on any of the offical maps on the home page such as:
 
-- [World](https://www.geohub.gg/map/6185df7a7b54baf63473a53e)
-- [Famous Landmarks](https://www.geohub.gg/map/6185dfd47b54baf63473a540)
-- [Canada](https://www.geohub.gg/map/6185dff27b54baf63473a541)
-- [United States](https://www.geohub.gg/map/6185e0077b54baf63473a542)
+- [World](https://www.GeoLocate.gg/map/6185df7a7b54baf63473a53e)
+- [Famous Landmarks](https://www.GeoLocate.gg/map/6185dfd47b54baf63473a540)
+- [Canada](https://www.GeoLocate.gg/map/6185dff27b54baf63473a541)
+- [United States](https://www.GeoLocate.gg/map/6185e0077b54baf63473a542)
 
 Or you can click on the `Find Maps` link on the sidebar to navigate between all the different supported country maps and community favorites!
 
@@ -46,8 +46,8 @@ Or you can click on the `Find Maps` link on the sidebar to navigate between all 
 
 If you get bored of playing the standard gamemodes, you can try out the other gamemodes available:
 
-- [Country Streaks](https://www.geohub.gg/streaks)
-- [The Daily Challenge](https://www.geohub.gg/daily-challenge)
+- [Country Streaks](https://www.GeoLocate.gg/streaks)
+- [The Daily Challenge](https://www.GeoLocate.gg/daily-challenge)
 
 <br />
 
@@ -80,12 +80,12 @@ Tired of having the locations picked for you? Create your own map by following t
 
 #### How do I add my own Google Maps API key?
 
-- Go to your profile page and click on the settings button on the far right (alternatively you can go to this URL: [Settings](https://www.geohub.gg/user/settings)).
+- Go to your profile page and click on the settings button on the far right (alternatively you can go to this URL: [Settings](https://www.GeoLocate.gg/user/settings)).
 - You then simply paste your key into the `Custom API Key` field and click `Save Changes`. Now all you have to do is refresh the page and enojoy playing as much as you want!
 
 #### How do I create my own Google Maps API key?
 
-- Follow the steps outlined in this [PDF](https://www.geohub.gg/custom-key-instructions.pdf)
+- Follow the steps outlined in this [PDF](https://www.GeoLocate.gg/custom-key-instructions.pdf)
 
 #### Will it cost me money to create my own Google Maps API key?
 
@@ -129,10 +129,10 @@ Now, you should be able to see the site running locally at [http://localhost:300
 
 ## 📷 Screenshots
 
-![geohub-home](https://github.com/benlikescode/geohub/assets/63207900/f055667d-10e3-4b22-8a01-9aeb3fa86716)
-![geohub-map-page](https://github.com/benlikescode/geohub/assets/63207900/51c88624-f82b-4b03-a9eb-326966460f4c)
-![geohub-game-view](https://github.com/benlikescode/geohub/assets/63207900/701ae09b-1a54-4c71-91fe-3131a738dcf8)
-![geohub-result-view](https://github.com/benlikescode/geohub/assets/63207900/736ccaa9-c165-4553-ad16-64b64adaa9f3)
-![geohub-leaderboard-view](https://github.com/benlikescode/geohub/assets/63207900/b0daa1f3-9734-496b-b34d-a68fec7f07c4)
-![geohub-login](https://github.com/benlikescode/geohub/assets/63207900/b70d1509-7e5e-4975-a177-08770c61cab1)
-![geohub-register](https://github.com/benlikescode/geohub/assets/63207900/bb838e05-99fc-4c87-9649-60908d6448fb)
+![GeoLocate-home](https://github.com/benlikescode/GeoLocate/assets/63207900/f055667d-10e3-4b22-8a01-9aeb3fa86716)
+![GeoLocate-map-page](https://github.com/benlikescode/GeoLocate/assets/63207900/51c88624-f82b-4b03-a9eb-326966460f4c)
+![GeoLocate-game-view](https://github.com/benlikescode/GeoLocate/assets/63207900/701ae09b-1a54-4c71-91fe-3131a738dcf8)
+![GeoLocate-result-view](https://github.com/benlikescode/GeoLocate/assets/63207900/736ccaa9-c165-4553-ad16-64b64adaa9f3)
+![GeoLocate-leaderboard-view](https://github.com/benlikescode/GeoLocate/assets/63207900/b0daa1f3-9734-496b-b34d-a68fec7f07c4)
+![GeoLocate-login](https://github.com/benlikescode/GeoLocate/assets/63207900/b70d1509-7e5e-4975-a177-08770c61cab1)
+![GeoLocate-register](https://github.com/benlikescode/GeoLocate/assets/63207900/bb838e05-99fc-4c87-9649-60908d6448fb)

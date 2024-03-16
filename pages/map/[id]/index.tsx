@@ -88,7 +88,7 @@ const MapPage: FC = () => {
   return (
     <StyledMapPage>
       <WidthController customWidth="1100px" mobilePadding="0px">
-        <Meta title={mapDetails?.name ? `Play - ${mapDetails.name}` : 'GeoHub'} />
+        <Meta title={mapDetails?.name ? `Play - ${mapDetails.name}` : 'GeoLocate'} />
 
         {mapDetails ? (
           <div className="mapDetailsSection">
@@ -99,7 +99,7 @@ const MapPage: FC = () => {
                   <div className="map-details">
                     <div className="name-wrapper">
                       <span className="name">{mapDetails.name}</span>
-                      {mapDetails.creator === 'GeoHub' && <VerifiedBadge size={20} />}
+                      {mapDetails.creator === 'GeoLocate' && <VerifiedBadge size={20} />}
                     </div>
                     {mapDetails.description && (
                       <span className="description">

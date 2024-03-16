@@ -14,7 +14,7 @@ const getAnalytics = async (req: NextApiRequest, res: NextApiResponse) => {
     const singlePlayerGamesCount = await collections.games?.find({ challengeId: { $eq: null } }).count()
     const challengesCount = await collections.games?.find({ challengeId: { $ne: null } }).count()
     const streakGamesCount = await collections.games?.find({ mode: 'streak' }).count()
-    const customMapsCount = await collections.maps?.find({ creator: { $ne: 'GeoHub' } }).count()
+    const customMapsCount = await collections.maps?.find({ creator: { $ne: 'GeoLocate' } }).count()
     const customLocationsCount = await collections.userLocations?.estimatedDocumentCount()
     const customKeysCount = await collections.users?.find({ mapsAPIKey: { $exists: true, $ne: '' } }).count()
     const unfinishedGamesCount = await collections.games?.find({ state: { $ne: 'finished' } }).count()

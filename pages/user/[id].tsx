@@ -149,7 +149,7 @@ const ProfilePage: NextPage = () => {
 
   return (
     <StyledProfilePage isEditing={isEditing}>
-      <Meta title={userDetails ? userDetails.name : 'GeoHub'} />
+      <Meta title={userDetails ? userDetails.name : 'GeoLocate'} />
 
       {loading || !userStats ? (
         <SkeletonProfile />

@@ -9,10 +9,10 @@ type Props = {
 }
 
 const Meta: FC<Props> = ({ title, description, ogUrl, ogImage }) => {
-  const defaultTitle = 'GeoHub'
+  const defaultTitle = 'GeoLocate'
   const defaultDescription =
-    'GeoHub is a free to play geography game that tests your ability to recognize where you are in the world.'
-  const defaultOGURL = 'https://www.geohub.gg'
+    'GeoLocate is a free to play geography game that tests your ability to recognize where you are in the world.'
+  const defaultOGURL = 'https://www.GeoLocate.gg'
   const defaultOGImage = '/og-image.png'
 
   return (

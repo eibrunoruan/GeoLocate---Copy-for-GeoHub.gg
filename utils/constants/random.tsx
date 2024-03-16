@@ -9,7 +9,7 @@ export const COUNTRY_STREAK_DETAILS = {
   name: 'Country Streaks',
   description: 'How many countries can you guess in a row?',
   previewImg: 'official22.jpg',
-  creator: 'GeoHub',
+  creator: 'GeoLocate',
 }
 
 export const DAILY_CHALLENGE_DETAILS = {

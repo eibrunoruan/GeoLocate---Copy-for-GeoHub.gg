@@ -35,6 +35,7 @@ const AppLogo: FC = () => {
               fill="white"
             />
           </svg>
+
         </a>
       </Link>
     </StyledAppLogo>

@@ -27,9 +27,9 @@ const LeaderboardCard: FC<Props> = ({ gameData, mapData, selectedGameIndex, setS
 
             <div className="gameInfoContent">
               <span className="label1">{mapData.name}</span>
-              {(mapData.creator === 'GeoHub' || mapData.creatorDetails?.name) && (
+              {(mapData.creator === 'GeoLocate' || mapData.creatorDetails?.name) && (
                 <span className="label2">
-                  Created by {mapData.creator === 'GeoHub' ? 'GeoHub' : mapData.creatorDetails?.name}
+                  Created by {mapData.creator === 'GeoLocate' ? 'GeoLocate' : mapData.creatorDetails?.name}
                 </span>
               )}
             </div>
