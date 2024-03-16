@@ -15,7 +15,7 @@ const Home: NextPage = () => {
 
   return (
     <StyledHomePage>
-      <Meta title="GeoHub - The free geography guessing game" />
+      <Meta title="GeoLocate" />
       <div className="hero-section">
         <Image
           src="/images/backgrounds/hero.jpg"

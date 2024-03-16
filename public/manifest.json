@@ -1,6 +1,6 @@
 {
-  "name": "GeoHub",
-  "short_name": "GeoHub",
+  "name": "GeoLocate",
+  "short_name": "GeoLocate",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
